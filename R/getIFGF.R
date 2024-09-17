@@ -127,8 +127,6 @@ if (ranking == FALSE){
 }
 
 
-dados <- get_IFGF(indicator = c("GP", "AT"))
-
 
 
 
