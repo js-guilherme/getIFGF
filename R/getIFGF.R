@@ -11,7 +11,8 @@ get_IFGF <- function(year = NULL, city = NULL, uf = NULL, region = NULL, indicat
   }
 
   pacotes <- c("rvest", "dplyr", "openxlsx", "stringr", "tidyr", "curl")
-  check.packages(pacotes)
+
+  suppressPackageStartupMessages(check.packages(pacotes))
 
   url <- "https://www.firjan.com.br/ifgf/analises-e-rankings/"
 
